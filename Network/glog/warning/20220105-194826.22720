@@ -1,0 +1,11 @@
+Log file created at: 2022/01/05 19:48:26
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 19:48:26.087234 21360 pingpong.cpp:100] all connected
+W0105 19:48:36.099241 30304 pingpong.cpp:139] stop
+W0105 19:48:36.099241 21360 tcp_client.cc:65] TCPClient::DisconnectInLoop this=00878C30 remote_addr=127.0.0.1:9099
+W0105 19:48:36.100240 21360 pingpong.cpp:106] all disconnected
+W0105 19:48:36.100240 21360 pingpong.cpp:114] 750176 total bytes read
+W0105 19:48:36.101240 21360 pingpong.cpp:115] 46886 total messages read
+W0105 19:48:36.101240 21360 pingpong.cpp:116] 16 average message size
+W0105 19:48:36.101240 21360 pingpong.cpp:118] 0.0715424 MiB/s throughput

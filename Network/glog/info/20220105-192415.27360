@@ -1,0 +1,141 @@
+Log file created at: 2022/01/05 19:24:15
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0105 19:24:15.775514 19168 event_loop.cc:11] evpp::EventLoop::EventLoop this=001BFBD4 
+I0105 19:24:15.778520 19168 event_loop.cc:56] evpp::EventLoop::Init this=001BFBD4 
+I0105 19:24:15.779518 19168 event_loop.cc:190] evpp::EventLoop::RunAfter this=001BFBD4 
+I0105 19:24:15.779518 19168 invoke_timer.cc:15] evpp::InvokeTimer::InvokeTimer this=008BBE40 loop=001BFBD4
+I0105 19:24:15.779518 19168 invoke_timer.cc:35] evpp::InvokeTimer::Start this=008BBE40 loop=001BFBD4 refcount=2
+I0105 19:24:15.779518 19168 event_loop.cc:220] evpp::EventLoop::RunInLoop this=001BFBD4 
+I0105 19:24:15.779518 19168 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=001BFBD4 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:15.779518 19168 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=001BFBD4 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 19:24:15.779518 19168 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=001BFBD4 call watcher_->Nofity() notified_.store(true)
+I0105 19:24:15.779518 19168 event_loop_thread_pool.cc:10] evpp::EventLoopThreadPool::EventLoopThreadPool this=008E3A48 thread_num=1 base loop=001BFBD4
+I0105 19:24:15.779518 19168 event_loop_thread_pool.cc:21] evpp::EventLoopThreadPool::Start this=008E3A48 thread_num=1 base loop=001BFBD4 wait_thread_started=1
+I0105 19:24:15.779518 19168 event_loop.cc:11] evpp::EventLoop::EventLoop this=008E7208 
+I0105 19:24:15.780519 19168 event_loop.cc:56] evpp::EventLoop::Init this=008E7208 
+I0105 19:24:15.780519 19168 event_loop_thread.cc:10] evpp::EventLoopThread::EventLoopThread this=008E7178 loop=008E7208
+I0105 19:24:15.780519 19168 event_loop_thread.cc:20] evpp::EventLoopThread::Start this=008E7178 
+I0105 19:24:15.782521 28376 event_loop_thread.cc:35] evpp::EventLoopThread::Run this=008E7178 loop=008E7208
+I0105 19:24:15.782521 28376 event_loop_thread.cc:43] evpp::EventLoopThread::Run this=008E7178 loop=008E7208 execute pre functor.
+I0105 19:24:15.782521 28376 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=008E7208 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:15.782521 28376 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=008E7208 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 19:24:15.782521 28376 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=008E7208 call watcher_->Nofity() notified_.store(true)
+I0105 19:24:15.782521 28376 event_loop.cc:85] evpp::EventLoop::Run this=008E7208 
+I0105 19:24:15.782521 28376 inner_pre.cc:53] event_add ev=008E3AC8 fd=448 user_ptr=008E94D8 tid=28376
+I0105 19:24:15.782521 28376 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=448 v=008E94D8
+I0105 19:24:15.782521 28376 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 19:24:15.782521 28376 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.782521 28376 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.782521 28376 event_loop_thread_pool.cc:32] evpp::EventLoopThreadPool::Start::<lambda_b44b61a6e3a9dc7d219d59486bea37af>::operator () this=008E3A48 a working thread started tid=28376
+I0105 19:24:15.782521 28376 event_loop_thread_pool.cc:161] evpp::EventLoopThreadPool::OnThreadStarted this=008E3A48 tid=28376 count=1 started.
+I0105 19:24:15.782521 28376 event_loop_thread_pool.cc:163] evpp::EventLoopThreadPool::OnThreadStarted this=008E3A48 thread pool totally started.
+I0105 19:24:15.783521 28376 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:15.783521 19168 event_loop_thread_pool.cc:132] evpp::EventLoopThreadPool::GetNextLoop this=008E3A48 
+I0105 19:24:15.783521 19168 tcp_client.cc:19] evpp::TCPClient::TCPClient this=008F5AA8 remote addr=127.0.0.1:9099
+I0105 19:24:15.783521 19168 tcp_client.cc:49] remote_addr=127.0.0.1:9099
+I0105 19:24:15.783521 19168 event_loop.cc:220] evpp::EventLoop::RunInLoop this=008E7208 
+I0105 19:24:15.783521 19168 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=008E7208 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:15.783521 19168 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=008E7208 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 19:24:15.783521 19168 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=008E7208 call watcher_->Nofity() notified_.store(true)
+I0105 19:24:15.783521 19168 event_loop.cc:85] evpp::EventLoop::Run this=001BFBD4 
+I0105 19:24:15.783521 28376 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=448 v=008E94D8
+I0105 19:24:15.783521 19168 inner_pre.cc:53] event_add ev=008E55A0 fd=432 user_ptr=008E3430 tid=19168
+I0105 19:24:15.783521 28376 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 19:24:15.783521 19168 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=432 v=008E3430
+I0105 19:24:15.783521 28376 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.783521 19168 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=001BFBD4 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 19:24:15.783521 19168 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=001BFBD4 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.783521 28376 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.784523 19168 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=001BFBD4 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 19:24:15.784523 28376 connector.cc:18] evpp::Connector::Connector this=008F5D00 raddr=127.0.0.1:9099
+I0105 19:24:15.784523 19168 inner_pre.cc:53] event_add ev=008F6290 fd=-1 user_ptr=008F5E48 tid=19168
+I0105 19:24:15.784523 28376 connector.cc:46] evpp::Connector::Start this=008F5D00 Try to connect 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:15.784523 19168 invoke_timer.cc:41] evpp::InvokeTimer::Start::<lambda_746e29cb6c93ec877590bc1927d698fc>::operator () this=008BBE40 timer=008F5E48 loop=001BFBD4 refcount=3 periodic=0 timeout(ms)=1e+06
+I0105 19:24:15.784523 28376 inner_pre.cc:53] event_add ev=008F5F10 fd=-1 user_ptr=008F4EB8 tid=28376
+I0105 19:24:15.784523 19168 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=001BFBD4 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:15.784523 28376 connector.cc:91] evpp::Connector::Connect this=008F5D00 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:15.784523 28376 fd_channel.cc:15] evpp::FdChannel::FdChannel this=008F5268 fd=460
+I0105 19:24:15.785523 28376 connector.cc:122] evpp::Connector::Connect this=008F5D00 new FdChannel p=008F5268 fd=460
+I0105 19:24:15.785523 28376 inner_pre.cc:53] event_add ev=008F60D0 fd=460 user_ptr=008F5268 tid=28376
+I0105 19:24:15.785523 28376 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=008F5268 fd=460 watching event kWritable
+I0105 19:24:15.785523 28376 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=008E7208 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 19:24:17.826378 28376 fd_channel.cc:157] evpp::FdChannel::HandleEvent this=008F5268 fd=460 kWritable
+I0105 19:24:17.826378 28376 connector.cc:128] evpp::Connector::HandleWrite this=008F5D00 127.0.0.1:9099 status=kConnecting
+I0105 19:24:17.826378 28376 connector.cc:165] evpp::Connector::HandleError this=008F5D00 127.0.0.1:9099 status=kConnecting
+E0105 19:24:17.826378 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=460 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+I0105 19:24:17.828380 28376 inner_pre.cc:75] event_del ev=008F60D0 fd=460 user_ptr=008F5268 tid=28376
+I0105 19:24:17.828380 28376 fd_channel.cc:116] evpp::FdChannel::DetachFromLoop this=008F5268 fd=460 detach from event loop
+I0105 19:24:17.828380 28376 fd_channel.cc:28] evpp::FdChannel::Close this=008F5268 fd=460
+I0105 19:24:17.828380 28376 inner_pre.cc:75] event_del ev=008F5F10 fd=-1 user_ptr=008F4EB8 tid=28376
+I0105 19:24:17.829382 28376 tcp_client.cc:103] evpp::TCPClient::OnConnection this=008F5AA8 Failed to connect to 127.0.0.1:9099. errno=2 Nie mo¿na odnaleŸæ okreœlonego pliku.
+I0105 19:24:17.829382 28376 tcp_conn.cc:32] evpp::TCPConn::TCPConn this=008F5300 TCPConn::[] channel=00000000 fd=-1 addr=(127.0.0.1:9099->(local))
+I0105 19:24:17.829382 28376 tcp_conn.cc:36] evpp::TCPConn::~TCPConn this=008F5300 name= channel=00000000 fd=-1 type=0 status=kDisconnected addr=(127.0.0.1:9099->(local))
+I0105 19:24:17.829382 28376 connector.cc:210] evpp::Connector::HandleError this=008F5D00 Connector::HandleError close(460)
+I0105 19:24:17.829382 28376 connector.cc:216] evpp::Connector::HandleError this=008F5D00 loop=008E7208 auto reconnect in 3s thread=28376
+I0105 19:24:17.829382 28376 event_loop.cc:190] evpp::EventLoop::RunAfter this=008E7208 
+I0105 19:24:17.829382 28376 invoke_timer.cc:15] evpp::InvokeTimer::InvokeTimer this=008E82C0 loop=008E7208
+I0105 19:24:17.829382 28376 invoke_timer.cc:35] evpp::InvokeTimer::Start this=008E82C0 loop=008E7208 refcount=2
+I0105 19:24:17.829382 28376 event_loop.cc:220] evpp::EventLoop::RunInLoop this=008E7208 
+I0105 19:24:17.829382 28376 inner_pre.cc:53] event_add ev=008F64C0 fd=-1 user_ptr=008F4EB8 tid=28376
+I0105 19:24:17.829382 28376 invoke_timer.cc:41] evpp::InvokeTimer::Start::<lambda_746e29cb6c93ec877590bc1927d698fc>::operator () this=008E82C0 timer=008F4EB8 loop=008E7208 refcount=4 periodic=0 timeout(ms)=3000
+I0105 19:24:20.844121 28376 invoke_timer.cc:54] evpp::InvokeTimer::OnTimerTriggered this=008E82C0 loop=008E7208 use_count=3
+I0105 19:24:20.844121 28376 connector.cc:46] evpp::Connector::Start this=008F5D00 Try to connect 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:20.844121 28376 inner_pre.cc:53] event_add ev=008F6140 fd=-1 user_ptr=008F4F58 tid=28376
+I0105 19:24:20.844121 28376 connector.cc:91] evpp::Connector::Connect this=008F5D00 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:20.844121 28376 fd_channel.cc:15] evpp::FdChannel::FdChannel this=008F53F8 fd=460
+I0105 19:24:20.844121 28376 fd_channel.cc:23] evpp::FdChannel::~FdChannel this=008F5268 fd=460
+I0105 19:24:20.844121 28376 connector.cc:122] evpp::Connector::Connect this=008F5D00 new FdChannel p=008F53F8 fd=460
+I0105 19:24:20.844121 28376 inner_pre.cc:53] event_add ev=008F6220 fd=460 user_ptr=008F53F8 tid=28376
+I0105 19:24:20.845124 28376 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=008F53F8 fd=460 watching event kWritable
+I0105 19:24:20.845124 28376 inner_pre.cc:75] event_del ev=008F64C0 fd=-1 user_ptr=008F4EB8 tid=28376
+I0105 19:24:20.845124 28376 invoke_timer.cc:31] evpp::InvokeTimer::~InvokeTimer this=008E82C0 loop=008E7208
+I0105 19:24:22.886507 28376 fd_channel.cc:157] evpp::FdChannel::HandleEvent this=008F53F8 fd=460 kWritable
+I0105 19:24:22.886507 28376 connector.cc:128] evpp::Connector::HandleWrite this=008F5D00 127.0.0.1:9099 status=kConnecting
+I0105 19:24:22.886507 28376 connector.cc:165] evpp::Connector::HandleError this=008F5D00 127.0.0.1:9099 status=kConnecting
+E0105 19:24:22.886507 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=460 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+I0105 19:24:31.341164 28376 inner_pre.cc:75] event_del ev=008F6220 fd=460 user_ptr=008F53F8 tid=28376
+I0105 19:24:31.342164 28376 fd_channel.cc:116] evpp::FdChannel::DetachFromLoop this=008F53F8 fd=460 detach from event loop
+I0105 19:24:31.342164 28376 fd_channel.cc:28] evpp::FdChannel::Close this=008F53F8 fd=460
+I0105 19:24:31.342164 28376 inner_pre.cc:75] event_del ev=008F6140 fd=-1 user_ptr=008F4F58 tid=28376
+I0105 19:24:31.342164 28376 tcp_client.cc:103] evpp::TCPClient::OnConnection this=008F5AA8 Failed to connect to 127.0.0.1:9099. errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+I0105 19:24:31.342164 28376 tcp_conn.cc:32] evpp::TCPConn::TCPConn this=00904550 TCPConn::[] channel=00000000 fd=-1 addr=(127.0.0.1:9099->(local))
+I0105 19:24:31.342164 28376 tcp_conn.cc:36] evpp::TCPConn::~TCPConn this=00904550 name= channel=00000000 fd=-1 type=0 status=kDisconnected addr=(127.0.0.1:9099->(local))
+I0105 19:24:31.342164 28376 connector.cc:210] evpp::Connector::HandleError this=008F5D00 Connector::HandleError close(460)
+I0105 19:24:31.342164 28376 connector.cc:216] evpp::Connector::HandleError this=008F5D00 loop=008E7208 auto reconnect in 3s thread=28376
+I0105 19:24:31.342164 28376 event_loop.cc:190] evpp::EventLoop::RunAfter this=008E7208 
+I0105 19:24:31.342164 28376 invoke_timer.cc:15] evpp::InvokeTimer::InvokeTimer this=008E7EA0 loop=008E7208
+I0105 19:24:31.342164 28376 invoke_timer.cc:35] evpp::InvokeTimer::Start this=008E7EA0 loop=008E7208 refcount=2
+I0105 19:24:31.342164 28376 event_loop.cc:220] evpp::EventLoop::RunInLoop this=008E7208 
+I0105 19:24:31.342164 28376 inner_pre.cc:53] event_add ev=008F5F10 fd=-1 user_ptr=008F5490 tid=28376
+I0105 19:24:31.342164 28376 invoke_timer.cc:41] evpp::InvokeTimer::Start::<lambda_746e29cb6c93ec877590bc1927d698fc>::operator () this=008E7EA0 timer=008F5490 loop=008E7208 refcount=4 periodic=0 timeout(ms)=3000
+I0105 19:24:34.357030 28376 invoke_timer.cc:54] evpp::InvokeTimer::OnTimerTriggered this=008E7EA0 loop=008E7208 use_count=3
+I0105 19:24:34.357030 28376 connector.cc:46] evpp::Connector::Start this=008F5D00 Try to connect 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:34.357030 28376 inner_pre.cc:53] event_add ev=008F6450 fd=-1 user_ptr=008F5530 tid=28376
+I0105 19:24:34.357030 28376 connector.cc:91] evpp::Connector::Connect this=008F5D00 127.0.0.1:9099 status=kDisconnected
+I0105 19:24:34.357030 28376 fd_channel.cc:15] evpp::FdChannel::FdChannel this=008F5360 fd=492
+I0105 19:24:34.357030 28376 fd_channel.cc:23] evpp::FdChannel::~FdChannel this=008F53F8 fd=460
+I0105 19:24:34.357030 28376 connector.cc:122] evpp::Connector::Connect this=008F5D00 new FdChannel p=008F5360 fd=492
+I0105 19:24:34.357030 28376 inner_pre.cc:53] event_add ev=008F6220 fd=492 user_ptr=008F5360 tid=28376
+I0105 19:24:34.357030 28376 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=008F5360 fd=492 watching event kWritable
+I0105 19:24:34.357030 28376 inner_pre.cc:75] event_del ev=008F5F10 fd=-1 user_ptr=008F5490 tid=28376
+I0105 19:24:34.357030 28376 invoke_timer.cc:31] evpp::InvokeTimer::~InvokeTimer this=008E7EA0 loop=008E7208
+I0105 19:24:36.399340 28376 fd_channel.cc:157] evpp::FdChannel::HandleEvent this=008F5360 fd=492 kWritable
+I0105 19:24:36.399340 28376 connector.cc:128] evpp::Connector::HandleWrite this=008F5D00 127.0.0.1:9099 status=kConnecting
+I0105 19:24:36.399340 28376 connector.cc:165] evpp::Connector::HandleError this=008F5D00 127.0.0.1:9099 status=kConnecting
+E0105 19:24:36.399340 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=492 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+I0105 19:24:36.399340 28376 inner_pre.cc:75] event_del ev=008F6220 fd=492 user_ptr=008F5360 tid=28376
+I0105 19:24:36.400342 28376 fd_channel.cc:116] evpp::FdChannel::DetachFromLoop this=008F5360 fd=492 detach from event loop
+I0105 19:24:36.400342 28376 fd_channel.cc:28] evpp::FdChannel::Close this=008F5360 fd=492
+I0105 19:24:36.400342 28376 inner_pre.cc:75] event_del ev=008F6450 fd=-1 user_ptr=008F5530 tid=28376
+I0105 19:24:36.400342 28376 tcp_client.cc:103] evpp::TCPClient::OnConnection this=008F5AA8 Failed to connect to 127.0.0.1:9099. errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+I0105 19:24:36.400342 28376 tcp_conn.cc:32] evpp::TCPConn::TCPConn this=00904550 TCPConn::[] channel=00000000 fd=-1 addr=(127.0.0.1:9099->(local))
+I0105 19:24:36.400342 28376 tcp_conn.cc:36] evpp::TCPConn::~TCPConn this=00904550 name= channel=00000000 fd=-1 type=0 status=kDisconnected addr=(127.0.0.1:9099->(local))
+I0105 19:24:36.400342 28376 connector.cc:210] evpp::Connector::HandleError this=008F5D00 Connector::HandleError close(492)
+I0105 19:24:36.400342 28376 connector.cc:216] evpp::Connector::HandleError this=008F5D00 loop=008E7208 auto reconnect in 3s thread=28376
+I0105 19:24:36.400342 28376 event_loop.cc:190] evpp::EventLoop::RunAfter this=008E7208 
+I0105 19:24:36.400342 28376 invoke_timer.cc:15] evpp::InvokeTimer::InvokeTimer this=008E7660 loop=008E7208
+I0105 19:24:36.400342 28376 invoke_timer.cc:35] evpp::InvokeTimer::Start this=008E7660 loop=008E7208 refcount=2
+I0105 19:24:36.400342 28376 event_loop.cc:220] evpp::EventLoop::RunInLoop this=008E7208 
+I0105 19:24:36.400342 28376 inner_pre.cc:53] event_add ev=008F61B0 fd=-1 user_ptr=008F5268 tid=28376
+I0105 19:24:36.400342 28376 invoke_timer.cc:41] evpp::InvokeTimer::Start::<lambda_746e29cb6c93ec877590bc1927d698fc>::operator () this=008E7660 timer=008F5268 loop=008E7208 refcount=4 periodic=0 timeout(ms)=3000

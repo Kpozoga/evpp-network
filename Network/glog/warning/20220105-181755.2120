@@ -1,0 +1,6 @@
+Log file created at: 2022/01/05 18:17:55
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 18:17:55.219151 23764 clientmain.cpp:41] Connected to 127.0.0.1:9099
+W0105 18:17:55.220151 23764 clientmain.cpp:35] Receive a message [hello]
+W0105 18:17:55.220151 23764 tcp_client.cc:65] TCPClient::DisconnectInLoop this=00EFFA44 remote_addr=127.0.0.1:9099

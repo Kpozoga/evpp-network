@@ -1,0 +1,5 @@
+Log file created at: 2022/01/05 18:23:34
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 18:23:34.580293 25780 clientmain.cpp:41] Connected to 127.0.0.1:9099
+W0105 18:23:34.582295 25780 clientmain.cpp:35] Receive a message [hello]

@@ -1,0 +1,4 @@
+Log file created at: 2022/01/05 19:20:04
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 19:20:04.917685 12432 pingpong.cpp:100] all connected

@@ -1,0 +1,4 @@
+Log file created at: 2022/01/05 18:12:03
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 18:12:03.274833 22612 tcp_client.cc:65] TCPClient::DisconnectInLoop this=0116F840 remote_addr=127.0.0.1:9099

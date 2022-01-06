@@ -1,0 +1,6 @@
+Log file created at: 2022/01/05 19:24:17
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0105 19:24:17.826378 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=460 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+E0105 19:24:22.886507 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=460 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+E0105 19:24:36.399340 28376 connector.cc:174] this=008F5D00 status=kConnecting fd=492 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.

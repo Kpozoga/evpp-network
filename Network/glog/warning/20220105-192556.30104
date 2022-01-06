@@ -1,0 +1,9 @@
+Log file created at: 2022/01/05 19:25:56
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0105 19:25:56.700292 30364 pingpong.cpp:100] all connected
+W0105 19:26:59.222259 30364 pingpong.cpp:106] all disconnected
+W0105 19:26:59.222259 30364 pingpong.cpp:114] 57936896 total bytes read
+W0105 19:26:59.222259 30364 pingpong.cpp:115] 56579 total messages read
+W0105 19:26:59.222259 30364 pingpong.cpp:116] 1024 average message size
+W0105 19:26:59.223259 30364 pingpong.cpp:118] 0.0552529 MiB/s throughput

@@ -1,0 +1,4 @@
+Log file created at: 2022/01/05 18:22:12
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0105 18:22:12.822960 30912 connector.cc:174] this=01188600 status=kConnecting fd=392 use_count=4 errno=10061 Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.

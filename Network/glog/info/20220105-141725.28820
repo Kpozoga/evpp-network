@@ -1,0 +1,102 @@
+Log file created at: 2022/01/05 14:17:25
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0105 14:17:25.841696 26532 event_loop.cc:11] evpp::EventLoop::EventLoop this=0093FAFC 
+I0105 14:17:25.844700 26532 event_loop.cc:56] evpp::EventLoop::Init this=0093FAFC 
+I0105 14:17:25.845702 26532 tcp_server.cc:19] evpp::TCPServer::TCPServer this=0093FA0C name=TCPEchoServer listening addr 0.0.0.0:9099 thread_num=4
+I0105 14:17:25.845702 26532 event_loop_thread_pool.cc:10] evpp::EventLoopThreadPool::EventLoopThreadPool this=00C36980 thread_num=4 base loop=0093FAFC
+I0105 14:17:25.845702 26532 Networkmain.cpp:41] Loli Hentai
+I0105 14:17:25.845702 26532 tcp_server.cc:34] evpp::TCPServer::Init this=0093FA0C 
+I0105 14:17:25.845702 26532 listener.cc:12] evpp::Listener::Listener this=00C37298 addr=0.0.0.0:9099
+I0105 14:17:25.845702 26532 listener.cc:23] evpp::Listener::Listen this=00C37298 
+I0105 14:17:25.845702 26532 tcp_server.cc:47] evpp::TCPServer::Start this=0093FA0C 
+I0105 14:17:25.845702 26532 event_loop_thread_pool.cc:21] evpp::EventLoopThreadPool::Start this=00C36980 thread_num=4 base loop=0093FAFC wait_thread_started=1
+I0105 14:17:25.846702 26532 event_loop.cc:11] evpp::EventLoop::EventLoop this=00C374A0 
+I0105 14:17:25.846702 26532 event_loop.cc:56] evpp::EventLoop::Init this=00C374A0 
+I0105 14:17:25.846702 26532 event_loop_thread.cc:10] evpp::EventLoopThread::EventLoopThread this=00C37410 loop=00C374A0
+I0105 14:17:25.847703 26532 event_loop_thread.cc:20] evpp::EventLoopThread::Start this=00C37410 
+I0105 14:17:25.848703 16968 event_loop_thread.cc:35] evpp::EventLoopThread::Run this=00C37410 loop=00C374A0
+I0105 14:17:25.848703 16968 event_loop_thread.cc:43] evpp::EventLoopThread::Run this=00C37410 loop=00C374A0 execute pre functor.
+I0105 14:17:25.848703 16968 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=00C374A0 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.848703 16968 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=00C374A0 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 14:17:25.848703 16968 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=00C374A0 call watcher_->Nofity() notified_.store(true)
+I0105 14:17:25.849706 16968 event_loop.cc:85] evpp::EventLoop::Run this=00C374A0 
+I0105 14:17:25.849706 16968 inner_pre.cc:53] event_add ev=00C36A00 fd=196 user_ptr=00C37768 tid=16968
+I0105 14:17:25.849706 16968 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=196 v=00C37768
+I0105 14:17:25.849706 16968 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=00C374A0 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 14:17:25.849706 16968 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=00C374A0 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.849706 16968 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=00C374A0 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.849706 16968 event_loop_thread_pool.cc:32] evpp::EventLoopThreadPool::Start::<lambda_b44b61a6e3a9dc7d219d59486bea37af>::operator () this=00C36980 a working thread started tid=16968
+I0105 14:17:25.849706 26532 event_loop.cc:11] evpp::EventLoop::EventLoop this=00C450D0 
+I0105 14:17:25.849706 16968 event_loop_thread_pool.cc:161] evpp::EventLoopThreadPool::OnThreadStarted this=00C36980 tid=16968 count=1 started.
+I0105 14:17:25.849706 16968 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=00C374A0 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.849706 26532 event_loop.cc:56] evpp::EventLoop::Init this=00C450D0 
+I0105 14:17:25.850706 26532 event_loop_thread.cc:10] evpp::EventLoopThread::EventLoopThread this=00C37B60 loop=00C450D0
+I0105 14:17:25.850706 26532 event_loop_thread.cc:20] evpp::EventLoopThread::Start this=00C37B60 
+I0105 14:17:25.850706 24408 event_loop_thread.cc:35] evpp::EventLoopThread::Run this=00C37B60 loop=00C450D0
+I0105 14:17:25.851707 24408 event_loop_thread.cc:43] evpp::EventLoopThread::Run this=00C37B60 loop=00C450D0 execute pre functor.
+I0105 14:17:25.851707 24408 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=00C450D0 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.851707 24408 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=00C450D0 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 14:17:25.851707 24408 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=00C450D0 call watcher_->Nofity() notified_.store(true)
+I0105 14:17:25.851707 24408 event_loop.cc:85] evpp::EventLoop::Run this=00C450D0 
+I0105 14:17:25.851707 24408 inner_pre.cc:53] event_add ev=00C457B8 fd=460 user_ptr=00C45398 tid=24408
+I0105 14:17:25.851707 24408 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=460 v=00C45398
+I0105 14:17:25.851707 24408 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=00C450D0 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 14:17:25.851707 24408 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=00C450D0 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.851707 24408 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=00C450D0 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.851707 24408 event_loop_thread_pool.cc:32] evpp::EventLoopThreadPool::Start::<lambda_b44b61a6e3a9dc7d219d59486bea37af>::operator () this=00C36980 a working thread started tid=24408
+I0105 14:17:25.851707 26532 event_loop.cc:11] evpp::EventLoop::EventLoop this=00C503E8 
+I0105 14:17:25.851707 24408 event_loop_thread_pool.cc:161] evpp::EventLoopThreadPool::OnThreadStarted this=00C36980 tid=24408 count=2 started.
+I0105 14:17:25.852707 24408 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=00C450D0 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.852707 26532 event_loop.cc:56] evpp::EventLoop::Init this=00C503E8 
+I0105 14:17:25.852707 26532 event_loop_thread.cc:10] evpp::EventLoopThread::EventLoopThread this=00C50358 loop=00C503E8
+I0105 14:17:25.852707 26532 event_loop_thread.cc:20] evpp::EventLoopThread::Start this=00C50358 
+I0105 14:17:25.853708 24332 event_loop_thread.cc:35] evpp::EventLoopThread::Run this=00C50358 loop=00C503E8
+I0105 14:17:25.853708 24332 event_loop_thread.cc:43] evpp::EventLoopThread::Run this=00C50358 loop=00C503E8 execute pre functor.
+I0105 14:17:25.853708 24332 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=00C503E8 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.853708 24332 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=00C503E8 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 14:17:25.853708 24332 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=00C503E8 call watcher_->Nofity() notified_.store(true)
+I0105 14:17:25.853708 24332 event_loop.cc:85] evpp::EventLoop::Run this=00C503E8 
+I0105 14:17:25.853708 24332 inner_pre.cc:53] event_add ev=00C45C88 fd=484 user_ptr=00C506B0 tid=24332
+I0105 14:17:25.853708 24332 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=484 v=00C506B0
+I0105 14:17:25.853708 24332 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=00C503E8 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 14:17:25.853708 24332 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=00C503E8 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.854709 24332 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=00C503E8 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.854709 24332 event_loop_thread_pool.cc:32] evpp::EventLoopThreadPool::Start::<lambda_b44b61a6e3a9dc7d219d59486bea37af>::operator () this=00C36980 a working thread started tid=24332
+I0105 14:17:25.854709 26532 event_loop.cc:11] evpp::EventLoop::EventLoop this=00C5DD08 
+I0105 14:17:25.854709 24332 event_loop_thread_pool.cc:161] evpp::EventLoopThreadPool::OnThreadStarted this=00C36980 tid=24332 count=3 started.
+I0105 14:17:25.854709 24332 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=00C503E8 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.854709 26532 event_loop.cc:56] evpp::EventLoop::Init this=00C5DD08 
+I0105 14:17:25.854709 26532 event_loop_thread.cc:10] evpp::EventLoopThread::EventLoopThread this=00C5DC78 loop=00C5DD08
+I0105 14:17:25.854709 26532 event_loop_thread.cc:20] evpp::EventLoopThread::Start this=00C5DC78 
+I0105 14:17:25.855710 26724 event_loop_thread.cc:35] evpp::EventLoopThread::Run this=00C5DC78 loop=00C5DD08
+I0105 14:17:25.855710 26724 event_loop_thread.cc:43] evpp::EventLoopThread::Run this=00C5DC78 loop=00C5DD08 execute pre functor.
+I0105 14:17:25.855710 26724 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=00C5DD08 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.855710 26724 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=00C5DD08 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 14:17:25.855710 26724 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=00C5DD08 call watcher_->Nofity() notified_.store(true)
+I0105 14:17:25.855710 26724 event_loop.cc:85] evpp::EventLoop::Run this=00C5DD08 
+I0105 14:17:25.855710 26724 inner_pre.cc:53] event_add ev=00C45908 fd=512 user_ptr=00C5DFD0 tid=26724
+I0105 14:17:25.855710 26724 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=512 v=00C5DFD0
+I0105 14:17:25.855710 26724 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=00C5DD08 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 14:17:25.856711 26724 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=00C5DD08 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26724 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=00C5DD08 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26724 event_loop_thread_pool.cc:32] evpp::EventLoopThreadPool::Start::<lambda_b44b61a6e3a9dc7d219d59486bea37af>::operator () this=00C36980 a working thread started tid=26724
+I0105 14:17:25.856711 26724 event_loop_thread_pool.cc:161] evpp::EventLoopThreadPool::OnThreadStarted this=00C36980 tid=26724 count=4 started.
+I0105 14:17:25.856711 26724 event_loop_thread_pool.cc:163] evpp::EventLoopThreadPool::OnThreadStarted this=00C36980 thread pool totally started.
+I0105 14:17:25.856711 26724 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=00C5DD08 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26532 listener.cc:47] evpp::Listener::Accept this=00C37298 
+I0105 14:17:25.856711 26532 fd_channel.cc:15] evpp::FdChannel::FdChannel this=00C689E0 fd=408
+I0105 14:17:25.856711 26532 event_loop.cc:220] evpp::EventLoop::RunInLoop this=0093FAFC 
+I0105 14:17:25.856711 26532 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=0093FAFC pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26532 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=0093FAFC queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 14:17:25.856711 26532 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=0093FAFC call watcher_->Nofity() notified_.store(true)
+I0105 14:17:25.856711 26532 listener.cc:51] TCPServer is running at 0.0.0.0:9099
+I0105 14:17:25.856711 26532 event_loop.cc:85] evpp::EventLoop::Run this=0093FAFC 
+I0105 14:17:25.856711 26532 inner_pre.cc:53] event_add ev=00C36910 fd=416 user_ptr=00C342D0 tid=26532
+I0105 14:17:25.856711 26532 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=416 v=00C342D0
+I0105 14:17:25.856711 26532 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=0093FAFC pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 14:17:25.856711 26532 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=0093FAFC pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26532 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=0093FAFC pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 14:17:25.856711 26532 inner_pre.cc:53] event_add ev=00C45828 fd=408 user_ptr=00C689E0 tid=26532
+I0105 14:17:25.857712 26532 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=00C689E0 fd=408 watching event kReadable
+I0105 14:17:25.857712 26532 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=0093FAFC pending_functor_count_=0 PendingQueueSize=0 notified_=0

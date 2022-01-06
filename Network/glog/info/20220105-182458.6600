@@ -1,0 +1,40 @@
+Log file created at: 2022/01/05 18:24:58
+Running on machine: DESKTOP-P39EB13
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0105 18:24:58.153239 28256 event_loop.cc:11] evpp::EventLoop::EventLoop this=00EFF998 
+I0105 18:24:58.156240 28256 event_loop.cc:56] evpp::EventLoop::Init this=00EFF998 
+I0105 18:24:58.157243 28256 tcp_client.cc:19] evpp::TCPClient::TCPClient this=00EFF888 remote addr=127.0.0.1:9099
+I0105 18:24:58.157243 28256 tcp_client.cc:49] remote_addr=127.0.0.1:9099
+I0105 18:24:58.157243 28256 event_loop.cc:220] evpp::EventLoop::RunInLoop this=00EFF998 
+I0105 18:24:58.157243 28256 event_loop.cc:272] evpp::EventLoop::QueueInLoop this=00EFF998 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 18:24:58.157243 28256 event_loop.cc:287] evpp::EventLoop::QueueInLoop this=00EFF998 queued a new Functor. pending_functor_count_=1 PendingQueueSize=1 notified_=0
+I0105 18:24:58.157243 28256 event_loop.cc:289] evpp::EventLoop::QueueInLoop this=00EFF998 call watcher_->Nofity() notified_.store(true)
+I0105 18:24:58.157243 28256 event_loop.cc:85] evpp::EventLoop::Run this=00EFF998 
+I0105 18:24:58.157243 28256 inner_pre.cc:53] event_add ev=0119B930 fd=448 user_ptr=011C41D0 tid=28256
+I0105 18:24:58.157243 28256 event_watcher.cc:154] PipeEventWatcher::HandlerFn fd=448 v=011C41D0
+I0105 18:24:58.157243 28256 event_loop.cc:303] evpp::EventLoop::DoPendingFunctors this=00EFF998 pending_functor_count_=1 PendingQueueSize=1 notified_=1
+I0105 18:24:58.157243 28256 event_loop.cc:326] evpp::EventLoop::DoPendingFunctors this=00EFF998 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 18:24:58.157243 28256 event_loop.cc:328] evpp::EventLoop::DoPendingFunctors this=00EFF998 pending_functor_count_=1 PendingQueueSize=0 notified_=0
+I0105 18:24:58.157243 28256 connector.cc:18] evpp::Connector::Connector this=011CA598 raddr=127.0.0.1:9099
+I0105 18:24:58.157243 28256 connector.cc:46] evpp::Connector::Start this=011CA598 Try to connect 127.0.0.1:9099 status=kDisconnected
+I0105 18:24:58.158243 28256 inner_pre.cc:53] event_add ev=0119BCB0 fd=-1 user_ptr=011C8F88 tid=28256
+I0105 18:24:58.158243 28256 connector.cc:91] evpp::Connector::Connect this=011CA598 127.0.0.1:9099 status=kDisconnected
+I0105 18:24:58.158243 28256 fd_channel.cc:15] evpp::FdChannel::FdChannel this=011D47B0 fd=432
+I0105 18:24:58.158243 28256 connector.cc:122] evpp::Connector::Connect this=011CA598 new FdChannel p=011D47B0 fd=432
+I0105 18:24:58.159245 28256 inner_pre.cc:53] event_add ev=0119BB60 fd=432 user_ptr=011D47B0 tid=28256
+I0105 18:24:58.159245 28256 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=011D47B0 fd=432 watching event kWritable
+I0105 18:24:58.159245 28256 event_loop.cc:333] evpp::EventLoop::DoPendingFunctors this=00EFF998 pending_functor_count_=0 PendingQueueSize=0 notified_=0
+I0105 18:24:58.159245 28256 fd_channel.cc:157] evpp::FdChannel::HandleEvent this=011D47B0 fd=432 kWritable
+I0105 18:24:58.159245 28256 connector.cc:128] evpp::Connector::HandleWrite this=011CA598 127.0.0.1:9099 status=kConnecting
+I0105 18:24:58.159245 28256 tcp_client.cc:112] evpp::TCPClient::OnConnection this=00EFF888 Successfully connected to 127.0.0.1:9099
+I0105 18:24:58.159245 28256 fd_channel.cc:15] evpp::FdChannel::FdChannel this=011D52A8 fd=432
+I0105 18:24:58.159245 28256 tcp_conn.cc:32] evpp::TCPConn::TCPConn this=011D4848 TCPConn::[TCPPingPongClient] channel=011D52A8 fd=432 addr=(127.0.0.1:9099->127.0.0.1:50155(local))
+I0105 18:24:58.159245 28256 inner_pre.cc:53] event_add ev=0119BAF0 fd=432 user_ptr=011D52A8 tid=28256
+I0105 18:24:58.159245 28256 fd_channel.cc:59] evpp::FdChannel::AttachToLoop this=011D52A8 fd=432 watching event kReadable
+W0105 18:24:58.159245 28256 clientmain.cpp:42] Connected to 127.0.0.1:9099
+I0105 18:24:58.160245 28256 inner_pre.cc:75] event_del ev=0119BCB0 fd=-1 user_ptr=011C8F88 tid=28256
+I0105 18:24:58.160245 28256 inner_pre.cc:75] event_del ev=0119BB60 fd=432 user_ptr=011D47B0 tid=28256
+I0105 18:24:58.160245 28256 fd_channel.cc:116] evpp::FdChannel::DetachFromLoop this=011D47B0 fd=432 detach from event loop
+I0105 18:24:58.160245 28256 fd_channel.cc:28] evpp::FdChannel::Close this=011D47B0 fd=432
+I0105 18:24:58.160245 28256 fd_channel.cc:157] evpp::FdChannel::HandleEvent this=011D52A8 fd=432 kReadable
+W0105 18:24:58.160245 28256 clientmain.cpp:35] Receive a message [hello]
